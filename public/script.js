@@ -1,11 +1,12 @@
-const API_URL = "http://localhost:8000";
+require('dotenv').config(); 
+const API_URL = process.env.API_URL_ENV;
 let clienteEditandoId = null;
 let compraEditandoId = null;
 let modalCompraClienteId = null;
 
 // Verificação inicial do carregamento
 console.log("Script carregado completamente");
-
+console.log(API_URL);
 
 function escapeHtml(unsafe) {
     if (!unsafe) return '';
