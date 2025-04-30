@@ -1,4 +1,4 @@
-const API_URL = "gestao-clientes-back.vercel.app";
+const API_URL = "https://gestao-clientes-back.vercel.app";
 let clienteEditandoId = null;
 let compraEditandoId = null;
 let modalCompraClienteId = null;
