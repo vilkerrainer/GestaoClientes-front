@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8000";
+const API_URL = "gestao-clientes-back.vercel.app";
 let clienteEditandoId = null;
 let compraEditandoId = null;
 let modalCompraClienteId = null;
